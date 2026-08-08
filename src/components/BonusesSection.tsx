@@ -24,7 +24,7 @@ export function BonusesSection() {
       description:
         'Visualize seno, cosseno e tangente e entenda qual relação usar em cada questão, sem depender de decoreba.',
       highlights:
-        'Inclui triângulos interativos, ângulos notáveis, relações trigonométricas e aplicações dos principais padrões cobrados no ENEM.',
+        'Inclui 10 mapas visuais de Trigonometria, tabela dos 6 ângulos notáveis, guia das relações de seno, cosseno e tangente, ficha de identificação do triângulo e 20 questões de fixação.',
       freeBadge: 'TOTALMENTE GRÁTIS',
     },
     {
@@ -33,9 +33,9 @@ export function BonusesSection() {
       subtitle: 'Interpretação de Gráficos e Funções',
       image: 'https://i.imgur.com/ntWa8GU.png',
       description:
-        'Aprenda a ler gráficos, interpretar tabelas e entender funções para não perder pontos por falta de interpretação.',
+        'Aprenda a ler gráficos, interpretar tabelas e entender funções para identificar rapidamente o que cada questão está pedindo.',
       highlights:
-        'Inclui plano cartesiano, função afim, função quadrática, crescimento, decrescimento e questões no estilo ENEM.',
+        'Inclui 15 exemplos de gráficos comentados, mapa visual das funções, tabela de características das funções afim e quadrática, guia de interpretação e 20 questões de treino.',
       freeBadge: 'TOTALMENTE GRÁTIS',
     },
     {
@@ -44,9 +44,9 @@ export function BonusesSection() {
       subtitle: 'Porcentagem, Juros e Matemática Financeira',
       image: 'https://i.imgur.com/rqcIf5h.png',
       description:
-        'Domine porcentagens, aumentos, descontos e juros através de situações práticas que aparecem constantemente na prova.',
+        'Domine porcentagens, aumentos, descontos e juros através dos principais tipos de situações financeiras cobradas no ENEM.',
       highlights:
-        'Inclui juros simples, juros compostos, cálculos financeiros e estratégias para resolver questões com mais segurança.',
+        'Inclui tabela de porcentagens, guia de aumentos e descontos, quadro comparativo de juros simples e compostos, 15 exemplos financeiros resolvidos e 20 questões de aplicação.',
       freeBadge: 'TOTALMENTE GRÁTIS',
     },
     {
@@ -57,7 +57,7 @@ export function BonusesSection() {
       description:
         'Entenda probabilidade de forma visual e intuitiva, aprendendo a identificar rapidamente casos possíveis, casos favoráveis e eventos.',
       highlights:
-        'Inclui espaço amostral, probabilidade simples, complementar, experimentos interativos e questões contextualizadas.',
+        'Inclui 8 mapas de probabilidade, árvore visual de possibilidades, quadro de espaço amostral, guia de probabilidade simples e complementar e 20 desafios de fixação.',
       freeBadge: 'TOTALMENTE GRÁTIS',
     },
     {
@@ -68,7 +68,7 @@ export function BonusesSection() {
       description:
         'Aprenda a reconhecer a figura, identificar os dados importantes e escolher a estratégia certa para resolver cada questão.',
       highlights:
-        'Inclui triângulos, quadriláteros, círculos, áreas, perímetros, ângulos e as principais relações de Geometria Plana cobradas no ENEM.',
+        'Inclui catálogo visual com 12 figuras planas, tabela de áreas e perímetros, mapa dos principais ângulos, quadro de fórmulas essenciais e 20 questões de aplicação.',
       freeBadge: 'TOTALMENTE GRÁTIS',
     },
   ];
