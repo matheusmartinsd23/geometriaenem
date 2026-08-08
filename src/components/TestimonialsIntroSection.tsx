@@ -10,7 +10,6 @@ interface TestimonialsIntroSectionProps {
 export function TestimonialsIntroSection({ onCtaClick }: TestimonialsIntroSectionProps) {
   const testimonials = [
     'https://i.imgur.com/yCRIOyp.png',
-    'https://i.imgur.com/DUYCEka.png',
     'https://i.imgur.com/sNGKW2P.jpeg',
     'https://i.imgur.com/VThC15S.jpeg',
     'https://i.imgur.com/5dJ8xxc.png',
