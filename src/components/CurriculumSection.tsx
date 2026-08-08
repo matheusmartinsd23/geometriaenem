@@ -36,7 +36,7 @@ export function CurriculumSection({ onCtaClick }: CurriculumSectionProps) {
           <img 
             src="https://i.imgur.com/5YwghhN.png" 
             alt="Mockup MatEnem GeoVisual" 
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md object-contain drop-shadow-2xl"
+            className="max-h-44 sm:max-h-56 w-auto object-contain drop-shadow-md rounded"
           />
         </div>
 
