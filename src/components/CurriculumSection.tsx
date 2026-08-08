@@ -32,6 +32,14 @@ export function CurriculumSection({ onCtaClick }: CurriculumSectionProps) {
           </h2>
         </div>
 
+        <div className="flex justify-center mb-8 px-4">
+          <img 
+            src="https://i.imgur.com/5YwghhN.png" 
+            alt="Mockup MatEnem GeoVisual" 
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md object-contain drop-shadow-2xl"
+          />
+        </div>
+
         <div className="bg-white border border-slate-200 p-6 sm:p-8 mb-4">
           <h3 className="text-xl sm:text-2xl font-black text-slate-900 mb-3">
             MatEnem GeoVisual™
