@@ -115,7 +115,7 @@ export function BonusesSection() {
                       src={bonus.image}
                       alt={bonus.title}
                       referrerPolicy="no-referrer"
-                      className="max-h-44 sm:max-h-56 w-auto object-contain drop-shadow-md rounded"
+                      className="max-h-[270px] sm:max-h-[345px] w-auto object-contain drop-shadow-md rounded"
                       loading="lazy"
                       decoding="async"
                     />
