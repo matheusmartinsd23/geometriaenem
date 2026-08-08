@@ -34,7 +34,7 @@ export function CurriculumSection({ onCtaClick }: CurriculumSectionProps) {
 
         <div className="flex justify-center mb-8 px-4">
           <img 
-            src="https://i.imgur.com/5YwghhN.png" 
+            src="https://i.imgur.com/yKpuBtw.png" 
             alt="Mockup MatEnem GeoVisual" 
             className="max-h-44 sm:max-h-56 w-auto object-contain drop-shadow-md rounded"
           />
