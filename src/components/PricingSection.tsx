@@ -135,7 +135,7 @@ export function PricingSection({ onSelectOption }: PricingSectionProps) {
             <div>
               <div className="py-3 text-center mb-4 border-t border-blue-800/60">
                 <p className="text-blue-200/80 text-xs font-semibold">
-                  <span className="line-through text-red-400 decoration-red-400 decoration-2 font-bold">De R$ 43</span>
+                  <span className="line-through text-red-400 decoration-red-400 decoration-2 font-bold">De R$ 139</span>
                 </p>
                 <p className="text-yellow-400 text-[10px] font-black uppercase tracking-widest mt-0.5">
                   por apenas
